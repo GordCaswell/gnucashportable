@@ -17,7 +17,7 @@ old_library=''
 inherited_linker_flags=''
 
 # Libraries that this one depends upon.
-dependency_libs=' -L/c/gcdev/gnucash-2.6.10/regex/lib -L/c/gcdev/gnucash-2.6.10/gnome/lib -L/c/gcdev/gnucash-2.6.10/gnutls/lib /c/gcdev/gnucash-2.6.10/gwenhywfar/lib/libgwenhywfar.la -L/c/gcdev/gnutls/lib -lregex /mingw/lib/libiconv.la /c/gcdev/gnucash-2.6.10/gnutls/lib/libgcrypt.la -lgpg-error -lgnutls /c/gcdev/gnucash-2.6.10/gnutls/lib/libgpg-error.la -lwsock32 /mingw/lib/libintl.la /mingw/lib/libiconv.la'
+dependency_libs=' -L/c/gcdev/gnucash-2.6.11/regex/lib -L/c/gcdev/gnucash-2.6.11/gnome/lib -L/c/gcdev/gnucash-2.6.11/gnutls/lib /c/gcdev/gnucash-2.6.11/gwenhywfar/lib/libgwenhywfar.la -L/c/gcdev/gnutls/lib -lregex /mingw/lib/libiconv.la /c/gcdev/gnucash-2.6.11/gnutls/lib/libgcrypt.la -lgpg-error -lgnutls /c/gcdev/gnucash-2.6.11/gnutls/lib/libgpg-error.la -lwsock32 /mingw/lib/libintl.la /mingw/lib/libiconv.la'
 
 # Names of additional weak libraries provided by this library
 weak_library_names=''
@@ -38,4 +38,4 @@ dlopen=''
 dlpreopen=''
 
 # Directory that this library needs to be installed in:
-libdir='/c/gcdev/gnucash-2.6.10/gwenhywfar/lib/gwenhywfar/plugins/60/ct'
+libdir='/c/gcdev/gnucash-2.6.11/gwenhywfar/lib/gwenhywfar/plugins/60/ct'
