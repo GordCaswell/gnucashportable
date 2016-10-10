@@ -36,4 +36,4 @@ dlopen=''
 dlpreopen=''
 
 # Directory that this library needs to be installed in:
-#libdir='c:/gcdev/gnucash-2.6.11/gnucash/inst/lib'
+#libdir='c:/gcdev/gnucash-2.6.13/gnucash/inst/lib'

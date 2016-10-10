@@ -1,5 +1,132 @@
 Version history:
 ------- -------
+2.6.13 - 26 June 2016
+Announcement: GnuCash 2.6.13 Release 2016-06-26
+GnuCash 2.6.13 released
+
+The GnuCash development team proudly announces GnuCash 2.6.13, the
+thirteenth maintenance release in the 2.6-stable series.
+
+The following bugs are fixed:
+    Bug 637004 - Optionally allow customer and vendor address info to display.
+    Bug 736352 - Expense Voucher adds tax automatically
+    Bug 748983 - Crash after opening money transfer dialog twice.
+    Bug 760021 - File "Save As" to an existing file...overwrites without
+                 warning.
+    Bug 761672 - Transfer made to placeholder account.
+    Bug 764248 - saved-reports-2.4-backup line endings unconventional
+    Bug 764871 - Crash starting gnu cash.
+    Bug 765859 - The budget reports missing in Hungarian edition
+    Bug 766028 - crash on manual addition of price entry in Price Editor.
+    Bug 766200 - Three-up printing does not position the third check
+                 properly.  A few bugs in the calculation of check
+                 positions while printing checks have been
+                 corrected. If you manually edited the check formats
+                 to compensate for these positioning errors in
+                 previous versions of gnucash, you may have to undo
+                 these changes. Please check this before printing your
+                 next check.
+    Bug 766688 - Minimal fraction of BYN should be 1/100
+    Bug 766960 - gnucash-make-guids fails to run due to hardcoded paths.
+    Bug 767824 - Some UTC timezones incorrectly recognized on Windows 7
+
+
+Other repairs that weren't marked as bugs in git:
+
+     The gnc_gui_refresh_all statement in gnc_book_options_dialog_apply_cb
+                 causes the 'apply' and 'OK' buttons to be set to
+                 sensitive on the open Book Options dialog in some
+                 circumstances; this commit causes them to be reset to
+                 insensitive, as they should be.
+
+     Check printing: make logic easier to follow.
+     Fix adjust_sql_option_string test on Windows.
+     Don't try to compile test_adjust_sql_options on windows, it won't link.
+     Fix the CMake build by linking gnc-backend-dbi for test-backend-dbi.
+     Improved adjust_sql_options_string, added tests.
+     Improve quickfill performance on huge registers.
+     Mac Localization: Prefer the country to the language for
+                fall-back locales.  On the theory that in countries
+                where multiple languages are in use similar date and
+                number formats will apply regardless of language, and
+                especially that the default currency will be the same
+                regardless of language. Also ensure that the specified
+                language is in the list passed to gettext; the net
+                effect of which is that the user will effectively get
+                the requested localization behavior.
+
+     Update README to refer to wiki Submitting_Patches and regarding pull
+                request policy.
+
+Translation Updates: Dutch, Russian, Serbian
+
+Standard Chart-of-Accounts Localizations Updates: Finnish, Sweden_Finnish, and 	Åland Islands Finnish.
+
+2.6.12 - 26 March 2016
+Announcement: GnuCash 2.6.12 Release 2016-03-26
+GnuCash 2.6.12 released
+
+The GnuCash development team proudly announces GnuCash 2.6.12, the
+twelfth maintenance release in the 2.6-stable series.
+
+The following bugs are fixed:
+     Bug 482186 - Customer and vendor report for partners who get invoiced/paid
+                  in foreign currency show total labeled with the symbol of the
+		  default currency
+     Bug 620281 - Adding reversing transaction to bill transactions creates
+                  undeleteable transactions
+     Bug 642292 - General Ledger report - 'Primary Sort Key' value is not
+                  persistent
+     Bug 687504 - Not possible to reset an invoice/bill counter format
+     Bug 693342 - Print (bottom) prints to middle for 3-check pages
+     Bug 719904 - Decide payment type only based on the account type involved
+     Bug 720934 - Barcharts with many data points have overlapping x-axis labels
+     Bug 722996 - Cannot add stock price on Price Editor
+     Bug 723689 - Splash screen doesn’t set the floating hint.
+     Bug 728074 - Posting bill converts currency to itself using 0 rate
+     Bug 728722 - Setting number format details appear wrong in Help,
+                  section 10.3.4. Counters Book Options Tab
+     Bug 733164 - {MacOSX] Command-H Invokes Help->Help Contents
+     Bug 742352 - Budget Summary section does not show expense totals
+     Bug 744157 - Tip about subaccount is confusing
+     Bug 754209 - Bills can be posted from "find bill" search results even if
+                  bill is already posted and results in extra $ posted to A/P
+     Bug 754856 - scheduled transaction <gnc.app-utils.sx> fails without warning
+     Bug 756469 - CSV Invoice Import - Items with double quote escape not
+                  imported.
+     Bug 760015 - guile support is automagic
+     Bug 760529 - Get Quotes updates value just once per day
+     Bug 760711 - Non-ASCII characters not shown in Report Name when a report
+                  is created with 2.6.11
+     Bug 762971 - Duplicating multiple invoices results in invoices without an
+                  ID number
+     Bug 763111 - commodities prices editor creates hidden db entries
+     Bug 763146 - Invalid exchange rate is recorded when entering multi-currency
+                  transaction
+     Bug 763279 - GnuCash has empty reports in recent Gentoo builds.
+
+Other repairs that weren't marked as bugs in git:
+     Various memory leaks.
+     More multi-currency fixes related to bug 763146.
+     Be more liberal in accepting business counter custom formats: li, lli, I64i,
+         and whatever is defined to G_GINT_64 or PRIx64 on the system on which
+	 GnuCash is compiled.
+     Correctly re-value splits when the transaction currency is changed.
+     Reset the transaction currency to match the currently open account when
+         auto-completing.
+     Refine the MacOS X localization when the system-generated POSIX locale
+         isn't a supported locale: Prefer the country to language when selecting
+	 an alternate locale, but still pass the original language to gettext.
+     Check printing: extract address from invoice/bill for payment transactions
+
+Robert Fewell has contributed changes needed to allow the 2.6 series
+    to read files from future major versions which use GUIDs instead of
+    names to identify matched accounts with the Bayesian import matcher.
+
+Translation Updates: Azeri, Basque, Catalan, Chinese (Simplified), Czech,
+                     Danish, Dutch, Farsi, Japanese, Kinyarwandan, Portuguese,
+		     Slovak, Serbian, Swedish, Turkish, Ukrainian.
+
 2.6.11 - 11 January 2016
 Announcement: GnuCash 2.6.11 Release 2016-01-11
 GnuCash 2.6.11 released

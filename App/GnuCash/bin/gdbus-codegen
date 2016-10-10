@@ -1,4 +1,4 @@
-#!/c/python27/python.exe
+#!/c/Python27/python.exe
 
 # GDBus - GLib D-Bus Library
 #
@@ -33,7 +33,7 @@ elif os.name == 'nt':
     # Makes gdbus-codegen 'relocatable' at runtime on Windows.
     path = os.path.join(os.path.dirname(__file__), '..', 'lib', 'gdbus-2.0')
 else:
-    path = os.path.join('/c/gcdev/dependencies/glib-install/share', 'glib-2.0')
+    path = os.path.join('/c/gcdev/dependencies/gnome-install-hide/share', 'glib-2.0')
 
 sys.path.insert(0, os.path.abspath(path))
 from codegen import codegen_main

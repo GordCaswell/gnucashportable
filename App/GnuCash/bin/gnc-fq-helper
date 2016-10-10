@@ -1,4 +1,4 @@
-#!/c/gcdev/gnucash-2.6.11/mingw/msys/1.0/bin/perl -w
+#!/c/gcdev/gnucash-2.6.13/mingw/msys/1.0/bin/perl -w
 ######################################################################
 ### gnc-fq-helper - present a scheme interface to Finance::Quote
 ### Copyright 2001 Rob Browning <rlb@cs.utexas.edu>

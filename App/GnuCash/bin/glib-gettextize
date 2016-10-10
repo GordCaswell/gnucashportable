@@ -42,7 +42,7 @@ version=2.38.2
 try_ln_s=:
 
 # Directory where the sources are stored.
-prefix=/c/gcdev/dependencies/glib-install
+prefix=/c/gcdev/dependencies/gnome-install-hide
 case `uname` in
 MINGW32*)
     prefix="`dirname $0`/.."

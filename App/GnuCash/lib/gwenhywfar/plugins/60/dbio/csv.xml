@@ -2,7 +2,7 @@
 <!DOCTYPE GWEN_PluginDescr SYSTEM "gwen/plugindescr.xsd" >
 
 <plugin name="csv" type="dbio" i18n="gwenhywfar" >
-  <version>4.13.1</version>
+  <version>4.15.3</version>
   <author>Martin Preuss(martin@libchipcard.de)</author>
   <short>Exporter for CSV</short>
   <descr>

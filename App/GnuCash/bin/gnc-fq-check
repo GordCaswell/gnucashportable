@@ -1,4 +1,4 @@
-#!/c/gcdev/gnucash-2.6.11/mingw/msys/1.0/bin/perl -w
+#!/c/gcdev/gnucash-2.6.13/mingw/msys/1.0/bin/perl -w
 ######################################################################
 ### gnc-fq-check - check for the presence of  Finance::Quote
 ### From gnc-fq-helper.
