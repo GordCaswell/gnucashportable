@@ -728,6 +728,7 @@
     </pref>
   </prefsgroup>
 
+
   <prefsgroup>
     <gschemaid>org.gnucash.dialogs.export.csv</gschemaid>
     <gconfpath>dialogs-export-csv.xml</gconfpath>
@@ -789,6 +790,7 @@
       <gconfkey>last_path</gconfkey>
     </pref>
   </prefsgroup>
+
 
   <prefsgroup>
     <gschemaid>org.gnucash.dialogs.import.generic</gschemaid>

@@ -1,4 +1,4 @@
-#!/bin/perl -w
+#!/opt/perl/bin/perl -w
 # -*- Mode: perl; indent-tabs-mode: nil; c-basic-offset: 4  -*-
 
 #

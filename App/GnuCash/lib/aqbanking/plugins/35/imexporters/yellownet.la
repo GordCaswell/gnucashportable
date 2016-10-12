@@ -17,7 +17,7 @@ old_library=''
 inherited_linker_flags=''
 
 # Libraries that this one depends upon.
-dependency_libs=' -L/c/gcdev/gnucash-2.6.13/libofx/lib -L/c/gcdev/gnucash-2.6.13/gwenhywfar/lib -L/c/gcdev/gnucash-2.6.13/gnome/lib -L/c/gcdev/gnucash-2.6.13/gnutls/lib /c/gcdev/gnucash-2.6.13/aqbanking/lib/libaqbanking.la -L/c/gcdev/gnucash-2.6.13/regex/lib -L/c/gcdev/gnutls/lib -lgmp /mingw/lib/libintl.la /c/gcdev/gnucash-2.6.13/gwenhywfar/lib/libgwenhywfar.la -lregex /c/gcdev/gnucash-2.6.13/gnutls/lib/libgcrypt.la -lgpg-error -lgnutls /c/gcdev/gnucash-2.6.13/gnutls/lib/libgpg-error.la -lwsock32 /mingw/lib/libintl.la /mingw/lib/libiconv.la'
+dependency_libs=' -L/c/gcdev/gnucash-2.6.14/libofx/lib -L/c/gcdev/gnucash-2.6.14/gwenhywfar/lib -L/c/gcdev/gnucash-2.6.14/gnome/lib -L/c/gcdev/gnucash-2.6.14/gnutls/lib /c/gcdev/gnucash-2.6.14/aqbanking/lib/libaqbanking.la -L/c/gcdev/gnucash-2.6.14/regex/lib -L/c/gcdev/gnutls/lib -lgmp /mingw/lib/libintl.la /c/gcdev/gnucash-2.6.14/gwenhywfar/lib/libgwenhywfar.la -lregex /c/gcdev/gnucash-2.6.14/gnutls/lib/libgcrypt.la -lgpg-error -lgnutls /c/gcdev/gnucash-2.6.14/gnutls/lib/libgpg-error.la -lwsock32 /mingw/lib/libintl.la /mingw/lib/libiconv.la'
 
 # Names of additional weak libraries provided by this library
 weak_library_names=''
@@ -38,4 +38,4 @@ dlopen=''
 dlpreopen=''
 
 # Directory that this library needs to be installed in:
-libdir='/c/gcdev/gnucash-2.6.13/aqbanking/lib/aqbanking/plugins/35/imexporters'
+libdir='/c/gcdev/gnucash-2.6.14/aqbanking/lib/aqbanking/plugins/35/imexporters'
