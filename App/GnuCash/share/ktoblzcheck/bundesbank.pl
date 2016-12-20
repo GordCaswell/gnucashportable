@@ -1,4 +1,4 @@
-#!/bin/perl -w
+#!/c/gcdev-maint/mingw/msys/1.0/bin/perl -w
 #
 # $Id$
 #

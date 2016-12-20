@@ -14,10 +14,10 @@ library_names='pie.dll.a'
 old_library=''
 
 # Linker flags that can not go in dependency_libs.
-inherited_linker_flags=' -pthread'
+inherited_linker_flags=''
 
 # Libraries that this one depends upon.
-dependency_libs=' -L/c/gcdev/gnucash-2.6.14/gnome/lib -L/c/gcdev/gnucash-2.6.14/pcre/lib -L/c/gcdev/hh/mingw/lib /c/gcdev/gnucash-2.6.14/goffice/lib/libgoffice-0.8.la -L=c:/gcdev/gnucash-2.6.14/libgsf/lib -L=c:/gcdev/gnucash-2.6.14/gnome/lib -L/lib -L==c:/gcdev/gnucash-2.6.14/gnome/lib -L/c/gcdev/gnucash-2.6.14/gnucash-2.6.14/gnome/lib/bin -L=/c/gcdev/gnucash-2.6.14/gnome/lib -L/c/gcdev/gnucash-2.6.14/gnucash-2.6.14/gnome/lib/lib -L==/c/gcdev/gnucash-2.6.14/gnome/lib -L===/c/gcdev/gnucash-2.6.14/gnome/lib -L/c/gcdev/gnucash-2.6.14/gnucash-2.6.14/gnome/lib -L/mingw/lib -L/c/gcdev/gnucash-2.6.14/dependencies/glib-install/bin -L/c/gcdev/gnucash-2.6.14/dependencies/cairo-install/bin -L=/c/gcdev/gnucash-2.6.14/dependencies/glib-install/lib -L/c/gcdev/gnucash-2.6.14/gnucash-2.6.14/gnome/lib/lib/lib -L/c/gcdev/gnucash-2.6.14/dependencies/glib-install/lib /c/gcdev/gnucash-2.6.14/libgsf/lib/libgsf-1.la /c/gcdev/gnucash-2.6.14/gnome/lib/libxml2.la /c/gcdev/gnucash-2.6.14/gnome/lib/libgtk-win32-2.0.la -lgdk-win32-2.0 -latk-1.0 -lcomdlg32 -lwinspool -lcomctl32 /c/gcdev/gnucash-2.6.14/gnome/lib/libgdk-win32-2.0.la -lpangocairo-1.0 -lgdk_pixbuf-2.0 -limm32 -lshell32 /c/gcdev/gnucash-2.6.14/gnome/lib/libatk-1.0.la /c/gcdev/gnucash-2.6.14/gnome/lib/libpangocairo-1.0.la -lcairo -lpangowin32-1.0 -lpangoft2-1.0 /c/gcdev/gnucash-2.6.14/gnome/lib/libgdk_pixbuf-2.0.la -ltiff -lgio-2.0 -ldnsapi -liphlpapi /c/gcdev/gnucash-2.6.14/gnome/lib/libtiff.la -ljpeg /c/gcdev/gnucash-2.6.14/gnome/lib/libjpeg.la /c/gcdev/gnucash-2.6.14/gnome/lib/libpangoft2-1.0.la -lharfbuzz /c/gcdev/gnucash-2.6.14/gnome/lib/libpangowin32-1.0.la -lpango-1.0 -lusp10 /c/gcdev/gnucash-2.6.14/gnome/lib/libpango-1.0.la -lintl -liconv -lffi -lgmodule-2.0 -lgthread-2.0 -lws2_32 -lole32 -lwinmm -lshlwapi /mingw/lib/libintl.la /c/gcdev/gnucash-2.6.14/gnome/lib/libcairo.la -lpixman-1 -lpthread /c/gcdev/gnucash-2.6.14/gnome/lib/libpixman-1.la -lfontconfig -lexpat -lfreetype -lpng14 -lgdi32 -lmsimg32 -lz -lgobject-2.0 -lglib-2.0 /mingw/lib/libintl.la /mingw/lib/libiconv.la -lpcre'
+dependency_libs=' -L/c/gcdev-maint/gnome/lib -L/c/gcdev-maint/pcre/lib -L/c/soft/hh/lib /c/gcdev-maint/goffice/lib/libgoffice-0.8.la -L=c:/gcdev-maint/libgsf/lib -L=c:/gcdev-maint/gnome/lib /c/gcdev-maint/libgsf/lib/libgsf-1.la /mingw/lib/libintl.la /c/gcdev-maint/gnome/lib/libxml2.la -lz -lws2_32 -lgtk-win32-2.0 -lgdk-win32-2.0 -latk-1.0 -lgio-2.0 -lpangowin32-1.0 -lgdi32 -lpangocairo-1.0 -lgdk_pixbuf-2.0 -lpango-1.0 -lcairo -lgobject-2.0 -lgmodule-2.0 -lgthread-2.0 -lglib-2.0 /mingw/lib/libintl.la /mingw/lib/libiconv.la'
 
 # Names of additional weak libraries provided by this library
 weak_library_names=''
@@ -38,4 +38,4 @@ dlopen=''
 dlpreopen=''
 
 # Directory that this library needs to be installed in:
-libdir='/c/gcdev/gnucash-2.6.14/goffice/lib/goffice/0.8.17/plugins/plot_pie'
+libdir='/c/gcdev-maint/goffice/lib/goffice/0.8.17/plugins/plot_pie'

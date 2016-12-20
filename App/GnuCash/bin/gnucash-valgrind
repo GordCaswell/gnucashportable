@@ -4,7 +4,7 @@ BIN_DIR=$(dirname $0)
 [ -e ${BIN_DIR}/gnucash-setup-env ] && \
    . ${BIN_DIR}/gnucash-setup-env
 
-TOP_SRC_DIR="c:/gcdev/gnucash-2.6.14/gnucash.git"
+TOP_SRC_DIR="c:/gcdev-maint/gnucash.git"
 #
 # Other potentially useful options, particularly for valgrind-2.x:
 # --tool=memcheck --trace-children=yes

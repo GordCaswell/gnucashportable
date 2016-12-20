@@ -1,4 +1,4 @@
-#!/bin/perl
+#!/c/gcdev-maint/mingw/msys/1.0/bin/perl
 
 # Simply run this script with no arguments. It will first download the
 # information HTML page by bundesbank and parse this page for blz
@@ -9,13 +9,13 @@
 
 ## Configuration
 # Commands
-$WGET = "/bin/wget";
+$WGET = "/c/gcdev-maint/mingw/msys/1.0/bin/wget";
 $LYNX = "NO";
-#$SED = "/bin/sed";
-$GREP = "/bin/grep";
+#$SED = "/c/gcdev-maint/mingw/msys/1.0/bin/sed";
+$GREP = "/c/gcdev-maint/mingw/msys/1.0/bin/grep";
 $RECODE = "NO"; #"NO"; -- dont use recode, it is not widely available
 # Directories
-$prefix="/c/gcdev/gnucash-2.6.14/gwenhywfar";
+$prefix="/c/gcdev-maint/gwenhywfar";
 $datadir="${prefix}/share";
 $pkgdatadir="$datadir/ktoblzcheck";
 $BANKDATADIR="${pkgdatadir}";

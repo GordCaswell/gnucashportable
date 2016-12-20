@@ -1,5 +1,5 @@
 #!/bin/sh
-PATH="c:/gcdev/gnucash-2.6.14/gnucash/inst/libexec/gnucash/overrides:${PATH}"
+PATH="c:/gcdev-maint/gnucash/inst/libexec/gnucash/overrides:${PATH}"
 export PATH
 
 GUILE_WARN_DEPRECATED="no"
